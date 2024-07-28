@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='author' content='Robert Fonod'>
+    <title>The Narrative of Modern Olympic Games</title>
+    <!-- Load css files -->
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <!-- Load d3.js libraries -->
+    <script src='https://d3js.org/d3.v4.min.js'></script>
+
+    <script type="text/javascript" src='js/chart_scatter_bew.js' charset='utf-8'></script>
+    <script type="text/javascript" src='js/index.js' charset='utf-8'></script>
+
+
+</head>
+
+<body>
+    <div id='header'>
+        <h1 style="text-align:center">Is Electric Vehicle Good Choice for Road Trip?</h1>
+    </div>
+    <div id='introDivId'>
+        <p> EVs are environmental friendly. Different from using fossil as energy source, like gasoline and diesel, EV uses
+        electricity as energy source. Electricity can be obtained from solar, nuclear, wind, water etc... They are more environmental
+         friendly.</p>
+        <p>Let's see if EVs can bring additional benefits on our road trips</p>
+    </div>
+    <br>
+    <div id='buttonsDivId'>
+        <button id="bs" type="button" class="btn-explore btn-default" onclick="initData()">Explore Highway MPG of different type vehicles</button>
+        <button id="bh" type="button" class="btn-home btn-default" style="visibility : hidden" onclick="homeScene()"></button>
+    </div>
+    <div id='makeDivId'></div>
+    <div id="venueDivId"></div>
+    <div id='scatterDivId'></div>
+    <div id='sourceDivId'></div>
+    <br>
+    <div id="footer">
+        <p>&copy; 2024 by Yinzhe Luo. UIUC Summer 2024. CS416. All right reserved.</p>
+    </div>
+</body>
+
+</html>
